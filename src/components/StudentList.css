@@ -1,0 +1,41 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #009d9a;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #e4e11a;
+  }
+
+  .action-buttons {
+    text-align: center;
+    gap: 50%;
+    /* margin: 20px; */
+    /* padding: 10px; */
+  }
+
+
+  .list-header {
+    text-align: center;
+  }
+
+
+  .operation-box {
+    text-align: center;
+  }
+
+  button[type="button"] {
+    margin-left: 154px;
+  }
